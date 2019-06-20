@@ -14,7 +14,7 @@
   #include "nrf_log.h"
 
   // get TWI instance (external function)
-  extern nrf_drv_twi_t * getTwiInstance(void);
+  extern nrf_drv_twi_t const * getTwiInstance(void);
 #endif
 
 // I2C.new(addr, wait) => I2C
